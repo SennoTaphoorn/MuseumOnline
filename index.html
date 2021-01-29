@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url('assets/images/background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+      </style>
+    <title>Ma WebXR</title>
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+      a-scene {
+        width:900px;
+        height:500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-image: url('');">
+      <h1><img src="assets/images/logoLam.png" alt="Lisser Art Museum" width="100">
+      Lisser Art Museum</h1>
+      <h2>Made by Duko & Senno.</h2>
+      <a href="http://30719.hosts1.ma-cloud.nl/F1M2Ontwerp/F1M2BO-webXR-demosite-main/LandingPage.html"><button>Druk hier voor informatie en tickets!</button></a>
+      <h3></h3>
+    </div>
+    <div style=float:left;>
+      <!-- Hier begint het WebXR component -->
+      <a-scene background="color: white" embedded></a-scene>
+      <!-- Hier eindigt het WebXR component -->
+    </div>
+
+    <div style="float:left; margin: 50px" id="extraText">...</div>  
+
+    <div style="clear: both; float: left; margin: 50px;" id="quiz">
+      
+      ....</div> 
+
+  </body>
+</html>
